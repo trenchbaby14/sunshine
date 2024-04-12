@@ -3,14 +3,14 @@ class Main{
                 System.out.print( "Shine");
         }
         public static void summer (int temp) {
-               if (temp > 80){
+               if (temp > 100){
                System.out.print("*");
                temp -= 1;
                summer(temp);
                }
         }
         public static void main(String[] args){
-          summer(91);
+          summer(110);
           sun();
         }  
 }        
